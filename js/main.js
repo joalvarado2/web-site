@@ -6,6 +6,7 @@
 
         $(function(){
 
+
             // menu fijo
 
             var windowHeight = $(window).height()
@@ -59,7 +60,9 @@
                 $("#segundos").html(event.strftime("%S"))
              })
 
-            
+            //  COLORBOX
+
+            $(".invitado-info").colorbox({inline:true, width:"50%"})
 
         })
 

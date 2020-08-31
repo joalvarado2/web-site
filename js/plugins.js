@@ -11,6 +11,7 @@ L.marker([4.600124, -74.212561]).addTo(map)
     .bindPopup('Hola!! <br/> Buscame')
     .openPopup();
 
+
 // Avoid `console` errors in browsers that lack a console.
 
 (function() {
@@ -36,4 +37,3 @@ L.marker([4.600124, -74.212561]).addTo(map)
 }());
 
 // Place any jQuery/helper plugins in here.
-
